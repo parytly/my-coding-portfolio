@@ -14,7 +14,7 @@
   </head>
   <body>
       <!-- NAV BAR  -->
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-dark bg-dark fixed-top">
         <!-- <i class="fas fa-angle-double-right"></i> -->
         <a class="navbar-brand" href="#"> < / >  PARY LY </a> 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,22 +35,49 @@
             </ul>
         </div>
     </nav>
-    <!-- BODY IMAGE -->
-    <div class="card bg-dark text-light">
-        <img id= "body-image" src="assets/images/green-sky.jpg" class="card-img" alt="...">
-        <div class="card-img-overlay">
-            <h5 class="card-title">My Coding <br> Profile</h5>
-            <p class="titleText">This page is about my coding experience, progression, and projects.<br> The page will display my expertise with both front-end and <br> back-end in web development.</p>
+    <!-- TOP CARD-->
+    <div class="card mb-3 bg-dark">
+      <img src="assets/images/green-sky.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-dark">
+        <h5 class="card-title text-light">My Coding Profile</h5>
+        <p class="card-text-top text-light">This page is about my coding experience, progression, and projects.<br>The page will display my expertise with both front-end and back-end in web development.</p>
+      </div>
+    </div>
+<!-- CARDS  -->
+    <div class="card-deck">
+      <div class="card each-card">
+        <img src="assets/images/project.jpg" class="card-img-body" alt="...">
+        <div class="card-body bg-dark text-light">
+          <h5 class="card-title-body">Projects</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         </div>
+      </div>
+
+      <div class="card each-card">
+        <img src="assets/images/gaming.jpg" class="card-img-body" alt="...">
+        <div class="card-body bg-dark text-light">
+          <h5 class="card-title-body">Games</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+       >
+        </div>
+      </div>
+      <div class="card each-card">
+        <img src="assets/images/assignment.jpg" class="card-img-body" alt="...">
+        <div class="card-body bg-dark text-light">
+          <h5 class="card-title-body">Assignments</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          
+        </div>
+      </div>
     </div>
 
           <!-- FOOTER  -->
-<div class="card bg-dark text-center">
-    <div class="card-footer text-muted bg-dark text-light">
+  <div class="card bg-dark text-center footer position-sticky">
+    <div class="card-footer  text-muted bg-dark text-light">
         Contact
     </div>
-</div>
-<i class="fas fa-code"></i>
+  </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

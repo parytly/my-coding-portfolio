@@ -1,19 +1,42 @@
-.card-footer{
-    font-size: 10px;
-    position: bottom;
+body{
+    background-color: rgb(45, 69, 69);
 }
-.titleText{
+.navbar-brand{
+    font-weight: bold;
+    font-size: 15px;
+    border: solid 1px white;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+.card-img-body{
+    height: 200px;
+    background-color: white;
+}
+.each-card{
+    background-color: black
+}
+.card-deck{
+    margin: 20px 20px;
+    
+}
+.card-text-top{
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 100;
+    text-shadow: 5px 5px 0 black;
     margin-left: 25px;
     margin-top: 50px;
 }
+.card-img-top{
+    height: 500px;
+}
+
 .card-title{
     font-family: Arial, Helvetica, sans-serif, sans-serif;
-    font-size: 100px;
-    font-weight:bold;
-    letter-spacing: 3px;
-    margin-left: 50px;
-    margin-top: 50px;
+    font-size: 80px;
+    font-weight: bold;
+    text-shadow: 5px 5px black;
+    margin-top: 20px;
 };
+
