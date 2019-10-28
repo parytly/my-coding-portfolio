@@ -9,13 +9,17 @@ body{
     padding: 5px;
 
 }
+
 .card-img-body{
     height: 200px;
     background-color: white;
+    border: solid 1px black;
 }
+
 .each-card{
-    background-color: black
+    background-color: black;
 }
+
 .card-deck{
     margin: 20px 20px;
     
@@ -26,6 +30,16 @@ body{
     font-weight: 10;
     margin-left: 25px;
     margin-top: 50px;
+}
+.card-zoom{
+    height: 500px;
+    overflow: hidden;
+}
+.card-zoom .card-img-top{
+    transition: all 3s ease;
+}
+.card-zoom:hover .card-img-top{
+    transform: scale(1.5);
 }
 .card-img-top{
     height: 500px;
