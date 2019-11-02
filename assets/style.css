@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(210, 207, 204);
+    background-color: rgb(233, 206, 171);
 }
 /* NAVIGATION BAR  */
 .navbar-brand{
@@ -22,15 +22,22 @@ body{
 .card-deck{
     margin: 10px 20px;
     padding: 20px 20px;
-    background-color: bisque;
-    border: dotted 5px black;
+    background-color: rgb(247, 245, 243);
+    border: dashed 2px black;
+}
+/* FOOTER */
+.card-footer{
+    position: sticky;
+    width: 100%;
+    color:white;
+    text-align: center;
 }
 /* MAIN PAGE HEADER IMAGE AND TEXT */
 .card-text-top{
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 10;
-    color:white;
+    color:black;
     margin: 25px;
     padding: 5px 5px;
 }
@@ -62,3 +69,5 @@ body{
     text-shadow: 5px 5px black;
     margin-top: 120px;
 };
+
+
