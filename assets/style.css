@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(233, 206, 171);
+    background-color: rgb(241, 224, 202);
 }
 /* NAVIGATION BAR  */
 .navbar-brand{
@@ -20,7 +20,7 @@ body{
     background-color: black;
 }
 .card-deck{
-    margin: 10px 20px;
+    margin: 50px 20px;
     padding: 20px 20px;
     background-color: rgb(247, 245, 243);
     border: dashed 2px black;

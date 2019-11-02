@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(45, 69, 69);
+    background-color: rgb(241, 224, 202);
 }
 /* NAVIGATION BAR  */
 .navbar-brand{
@@ -13,7 +13,7 @@ body{
 
 /* WORK ASSIGNMENTS OF EACH CARD */
 .mywork-card{
-    margin-left: 40px;
+    margin: 20px 20px;
     background-color: aliceblue;
     height: 100px;
     border: solid 2px black;
@@ -27,24 +27,48 @@ body{
     font-weight: bold;
     margin-top: -15px;
 }
+/* FOOTER */
+.card-footer{
+    position: sticky;
+    width: 100%;
+    color:white;
+    text-align: center;
+}
 
 /* MAIN PAGE HEADER IMAGE AND TEXT */
+/* .card-text-top{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 10;
+    color:black;
+    margin: 25px;
+    padding: 5px 5px;
+} */
 .card-zoom{
-    height: 500px;
     overflow: hidden;
+    margin-top: 90px;
+    margin-bottom:20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .card-zoom .card-img-top{
-    transition: all 3s ease;
+    transition: all 2s ease;
 }
 .card-zoom:hover .card-img-top{
     transform: scale(1.5);
 }
 .card-img-top{
-    height: 500px;
+    height: 400px;
     border: solid 5px black;
 }
-
-.footer{
-    position: bottom;
-    height: 90px;
+.card-img-overlay{
+    height: 400px;
+    margin-top: 95px;
 }
+.card-title{
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    text-shadow: 5px 5px black;
+    margin-top: 120px;
+};
