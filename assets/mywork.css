@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(45, 69, 69);
+}
+/* NAVIGATION BAR  */
+.navbar-brand{
+    font-weight: bold;
+    font-size: 15px;
+    border: solid 1px white;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+
+/* WORK ASSIGNMENTS OF EACH CARD */
+.mywork-card{
+    margin-left: 40px;
+    background-color: aliceblue;
+    height: 100px;
+    border: solid 2px black;
+}
+.mywork-img{
+    width: 180px;
+    height: 97px;
+    border: solid 1px black;
+}
+.mywork-title{
+    font-weight: bold;
+    margin-top: -15px;
+}
+
+/* MAIN PAGE HEADER IMAGE AND TEXT */
+.card-zoom{
+    height: 500px;
+    overflow: hidden;
+}
+.card-zoom .card-img-top{
+    transition: all 3s ease;
+}
+.card-zoom:hover .card-img-top{
+    transform: scale(1.5);
+}
+.card-img-top{
+    height: 500px;
+    border: solid 5px black;
+}
+
+.footer{
+    position: bottom;
+    height: 90px;
+}
