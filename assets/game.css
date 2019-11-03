@@ -10,9 +10,24 @@ body{
     padding: 5px;
 
 }
+/* GAME BODY LINKS */
+.game-body{
+    width:800px;
+    border: solid 2px black;
+    padding: 20px 10px;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+.media{
+    height: 100px;
+    margin: 20px;
+    border: solid 2px black;
+}
+
 
 /* WORK ASSIGNMENTS OF EACH CARD */
-.mywork-card{
+
+/* .mywork-card{
     margin: 20px 20px;
     background-color: aliceblue;
     height: 100px;
@@ -26,7 +41,7 @@ body{
 .mywork-title{
     font-weight: bold;
     margin-top: -15px;
-}
+} */
 /* FOOTER */
 .card-footer{
     position: sticky;

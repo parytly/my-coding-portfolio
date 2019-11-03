@@ -7,7 +7,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- LOCAL CSS LINK -->
-    <link rel="stylesheet" href="assets/mywork.css">
+    <link rel="stylesheet" href="assets/game.css">
     <!-- GOOGLE FONT LINK -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700|PT+Sans:700|Staatliches&display=swap" rel="stylesheet">
     <title>Ly's Portfolio</title>
@@ -16,7 +16,7 @@
       <!-- NAV BAR  -->
     <nav class="navbar navbar-dark bg-dark fixed-top">
         <!-- <i class="fas fa-angle-double-right"></i> -->
-        <a class="navbar-brand" href="#"> < / >  PARY LY </a> 
+        <a class="navbar-brand" href="./index.html"> < / >  PARY LY </a> 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -54,7 +54,34 @@
       </div>
 
 <!-- CARDS  -->
-  <div class ="mywork-holder"> 
+<div class="container game-body"> 
+<ul class="list-unstyled">
+  <a href="https://parytly.github.io/psychic_game/" target="_blank">
+  <li class="media bg-light text-dark">
+    <img src="./assets/images/guess.jpg" width = "150px" height="96px" class="mr-3" alt="...">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">Psychic Game</h5>
+      This is a letter guessing game created by using JavaScript.
+    </div>
+  </li>
+</a>
+  <li class="media my-4">
+    <img src="./assets/images/green-sky.jpg" width = "150px" height="96px" class="mr-3" alt="...">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">Unit-4 Game</h5>
+      <p>This game was develop using javascript. The game will generate a random number from 19 - 120, and the objective is to click on the gems until it adds up to the random.</p>
+    </div>
+  </li>
+  <li class="media bg-light text-dark">
+    <img src="./assets/images/project.jpg" width = "150px" height="96px" class="mr-3" alt="...">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">List-based media object</h5>
+      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus 
+    </div>
+  </li>
+</ul>
+</div>
+  <!-- <div class ="mywork-holder"> 
     <div class="mywork-card mb-3" style="max-width: 540px;">
       <div class="row no-gutters">
         <div class="col-md-4">
@@ -82,21 +109,7 @@
         </div>
       </div>
     </div>
-
-    <div class="mywork-card mb-3" style="max-width: 540px;">
-      <div class="row no-gutters">
-        <div class="col-md-4">
-          <img src="assets/images/assignment.jpg" class="mywork-img" alt="...">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="mywork-title">Unit-4 Game</h5>
-            <p class="mywork-text">This is a letter guessing game created by using JavaScript.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  </div> -->
           <!-- FOOTER  -->
           <div class="card-footer bg-dark text-muted">
               2 days ago
@@ -107,5 +120,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="game.js"></script>
   </body>
 </html>

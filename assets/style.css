@@ -13,6 +13,7 @@ body{
 /* MAIN PAGE CARD BODY CSS */
 .card-img-body{
     height: 100px;
+    width: 100%;
     background-color: white;
     border: solid 1px black;
 }
