@@ -17,15 +17,15 @@ body{
 .game-body{
     width:100%;
     border: solid 2px black;
-    padding: 40px 20px;
+    padding: 5px 20px;
     margin-top: 20px;
     margin-bottom:20px;
     background-color: rgba(43, 71, 43, 0.749);
 }
 .media{
     background-color: rgb(229, 235, 240);
-    height: 100px;
-    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border: solid 2px black;
 }
 h5{

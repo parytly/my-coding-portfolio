@@ -14,13 +14,16 @@ body{
     font-size: 20px;
 }
 /* ABOUT ME CARD */
-.about-me{
-    background-color: rgba(43, 71, 43, 0.749);
+.aboutmeHolder{
+    background-color: rgba(52, 78, 52, 0.89);
     border: dashed 3px black;
-    width: 100%;
+}
+.about-me{
+    background-color: white;
+    margin: 20px 10px;
 }
 .about-me-body{
-    background-color: aliceblue;
+   
     padding-top: 10px;
     padding-bottom: -20px;
     margin-top: 10px;
