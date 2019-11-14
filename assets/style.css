@@ -8,13 +8,29 @@ body{
     border: solid 1px white;
     border-radius: 8px;
     padding: 5px;
-
+    background-color: rgba(43, 71, 43, 0.749)
 }
+.name{
+    font-size: 20px;
+}
+/* ABOUT ME CARD */
+.about-me{
+    background-color: rgba(43, 71, 43, 0.749);
+    border: dashed 3px black;
+    width: 100%;
+}
+.about-me-body{
+    background-color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: -20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /* MAIN PAGE CARD BODY CSS */
 .card-img-body{
     height: 100px;
     width: 100%;
-    background-color: white;
     border: solid 1px black;
 }
 .each-card{
@@ -22,15 +38,15 @@ body{
 }
 .card-deck{
     margin: 50px 20px;
-    padding: 20px 20px;
-    background-color: rgb(247, 245, 243);
+    padding: 50px 20px;
+    background-color: rgba(43, 71, 43, 0.749);
     border: dashed 2px black;
 }
 /* FOOTER */
 .card-footer{
     position: sticky;
     width: 100%;
-    color:white;
+    color: white;
     text-align: center;
 }
 /* MAIN PAGE HEADER IMAGE AND TEXT */

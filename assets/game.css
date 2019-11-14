@@ -5,43 +5,33 @@ body{
 .navbar-brand{
     font-weight: bold;
     font-size: 15px;
-    border: solid 1px white;
+    border: solid 3px black;
     border-radius: 8px;
-    padding: 5px;
-
+    padding: 5px 25px;
+    background-color: rgba(43, 71, 43, 0.749)
 }
-/* GAME BODY LINKS */
+.name{
+    font-size: 20px;
+}
+/* WORK ASSIGNMENTS OF EACH CARD */
 .game-body{
-    width:800px;
+    width:100%;
     border: solid 2px black;
-    padding: 20px 10px;
+    padding: 40px 20px;
     margin-top: 20px;
     margin-bottom:20px;
+    background-color: rgba(43, 71, 43, 0.749);
 }
 .media{
+    background-color: rgb(229, 235, 240);
     height: 100px;
     margin: 20px;
     border: solid 2px black;
 }
-
-
-/* WORK ASSIGNMENTS OF EACH CARD */
-
-/* .mywork-card{
-    margin: 20px 20px;
-    background-color: aliceblue;
-    height: 100px;
-    border: solid 2px black;
+h5{
+    color: black;
 }
-.mywork-img{
-    width: 180px;
-    height: 97px;
-    border: solid 1px black;
-}
-.mywork-title{
-    font-weight: bold;
-    margin-top: -15px;
-} */
+
 /* FOOTER */
 .card-footer{
     position: sticky;
@@ -51,14 +41,6 @@ body{
 }
 
 /* MAIN PAGE HEADER IMAGE AND TEXT */
-/* .card-text-top{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: 10;
-    color:black;
-    margin: 25px;
-    padding: 5px 5px;
-} */
 .card-zoom{
     overflow: hidden;
     margin-top: 90px;
