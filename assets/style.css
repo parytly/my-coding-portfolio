@@ -46,11 +46,11 @@ body{
     border: dashed 2px black;
 }
 /* FOOTER */
-.card-footer{
+.footer-contact{
     position: sticky;
     width: 100%;
     color: white;
-    text-align: center;
+    text-align: right;
 }
 /* MAIN PAGE HEADER IMAGE AND TEXT */
 .card-text-top{
