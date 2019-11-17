@@ -14,20 +14,27 @@ body{
     font-size: 20px;
 }
 /* ABOUT ME CARD */
+
 .aboutmeHolder{
-    background-color: rgba(52, 78, 52, 0.89);
-    border: dashed 3px black;
+    background-color: rgb(241, 224, 202);
 }
 .about-me{
-    background-color: white;
-    margin: 20px 10px;
+    /* background-color: rgb(241, 224, 202); */
+    margin: 5px 20px;
+}
+.aboutMe-img{
+    border-radius:70%; 
+    border: solid 5px black;
+    height: 200px;
+    width: 250px;
 }
 .about-me-body{
-   
-    padding-top: 10px;
-    padding-bottom: -20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+   background-color: white;
+   border: dashed 2px black;
+}
+.card-title-aboutme{
+    font-size: 30px;
+    font-weight: bold;
 }
 
 /* MAIN PAGE CARD BODY CSS */
