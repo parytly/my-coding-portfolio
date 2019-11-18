@@ -24,7 +24,7 @@ body{
     background-color: rgba(3, 37, 3, 0.749);
 }
 .media{
-    background-color: rgb(229, 235, 240);
+    background-color: white;
     margin-top: 10px;
     margin-bottom: 10px;
     border: solid 2px black;
@@ -34,19 +34,18 @@ h5{
 }
 
 /* FOOTER */
-/* .card-footer{
-    position: sticky;
-    width: 100%;
-    color:white;
-    text-align: center;
-} */
 .footer-contact{
     position: sticky;
     width: 100%;
     color: white;
     text-align: right;
 }
-    
+.footer-brand{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+}
 /* MAIN PAGE HEADER IMAGE AND TEXT */
 .card-zoom{
     overflow: hidden;

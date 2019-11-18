@@ -60,7 +60,16 @@ body{
     color: white;
     text-align: right;
 }
-
+.bottom-footer{
+    /* background-color: rgba(3, 37, 3, 0.749); */
+    height: 80px;
+}
+.footer-brand{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+}
 /* MAIN PAGE HEADER IMAGE AND TEXT */
 .card-text-top{
     font-family: 'Montserrat', sans-serif;
