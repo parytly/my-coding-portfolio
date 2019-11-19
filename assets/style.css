@@ -16,7 +16,9 @@ body{
 /* ABOUT ME CARD */
 
 .aboutmeHolder{
-    /* background-color: rgb(241, 224, 202); */
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+    margin-top: 40px;
 }
 .about-me{
     margin: 5px 50px;
@@ -32,11 +34,21 @@ body{
    border: solid 2px black;
    border-radius: 10%;
 }
-.card-title-aboutme{
-    font-size: 30px;
+.aboutMe-name{
     font-weight: bold;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+    border-bottom: solid 10px rgba(43, 71, 43, 0.749);
 }
-
+.card-title-aboutme{
+    font-weight: bolder;
+    
+}
+.my-portfolio{
+    margin-top: 70px;
+    border-bottom: solid 2px rgba(3, 37, 3, 0.749);
+    letter-spacing: 2px;
+}
 /* MAIN PAGE CARD BODY CSS */
 .card-img-body{
     height: 100px;
