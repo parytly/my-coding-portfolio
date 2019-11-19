@@ -13,7 +13,10 @@
   <!-- GOOGLE FONT LINK -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:700|PT+Sans:700|Staatliches&display=swap"
     rel="stylesheet">
+  <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/ee38aa50f5.js" crossorigin="anonymous"></script>
   <title>Ly's Portfolio</title>
+  <link rel="icon" href="./assets/images/godzilla-1954.jpg">
 </head>
 
 <body>
@@ -21,7 +24,7 @@
   <nav class="navbar navbar-dark bg-dark fixed-top">
     <!-- <i class="fas fa-angle-double-right"></i> -->
     <a class="navbar-brand" href="./index.html">
-      <img src="./assets/images/godzilla-icon.jpg" width="50px" height="50px" class="godzilla-icon">
+      <i class="fas fa-laptop-code"></i>
       <span class="name"> PARY LY</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
       aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,24 +65,26 @@
   <!-- CARDS  -->
   <div class="container game-body">
     <ul class="list-unstyled">
-      <a href="https://parytly.github.io/psychic_game/" target="_blank">
-        <li class="media bg-light text-dark">
+      <li class="media bg-light text-dark">
+        <a href="https://parytly.github.io/psychic_game/" target="_blank">
           <img src="./assets/images/guess.jpg" width="150px" height="96px" class="mr-3" alt="...">
           <div class="media-body">
             <h5 class="mt-0 mb-1">Psychic Game</h5>
-      </a>
-      This is a letter guessing game created by using JavaScript.
+        </a>
+        <p> This is a letter guessing game created by using JavaScript.</p>
+        <a href="https://github.com/parytly/psychic_game" target=".blank"> <i class="fab fa-github text-dark"></i></a>
   </div>
   </li>
 
   <a href="https://parytly.github.io/unit-4-game/" target="_blank">
     <li class="media">
-      <img src="./assets/images/gems.jpg" width="150px" height="96px" class="mr-3" alt="...">
+      <img src="./assets/images/gems.jpg" width="150px" height="100%" class="mr-3" alt="...">
       <div class="media-body text-dark">
         <h5 class="mt-0 mb-1">Unit-4 Game</h5>
   </a>
   <p>This game was develop using javascript. The game will generate a random number from 19 - 120, and the
     objective is to click on the gems until it adds up to the random.</p>
+  <a href="https://github.com/parytly/unit-4-game" target=".blank"> <i class="fab fa-github text-dark"></i></a>
   </div>
   </li>
 
@@ -90,6 +95,7 @@
         <h5 class="mt-0 mb-1">Trivia Game</h5>
   </a>
   <p>A timed questionaire quiz created by input forms and jQuery to append the content to the DOM.</p>
+  <a href="https://github.com/parytly/TriviaGame" target=".blank"> <i class="fab fa-github text-dark"></i></a>
   </div>
   </li>
 
@@ -97,16 +103,44 @@
   </div>
 
   <!-- FOOTER  -->
-  <div class="card-footer bg-dark">
-    <div>
-      <p> <small>paleepary@aol.com</small></p>
-      <p class="card-text"><small class="text-muted"><a href="https://github.com/parytly" target=".blank"
-            class="text-white"> Github profile</a></small></p>
-      <p class="card-text"><small class="text-muted"><a href="./assets/images/Pary Ly Resume 4.19 .pdf" target="_blank"
-            class="text-white">Resume</a></small></p>
+  <!-- NAVIGATION FOOTER  -->
+  <div class="card-footer bg-dark row">
+    <div class="footer-nav col-md-4">
+      <p class="text-white"> Links:</p>
+      <small> <a class="nav-link " href="./project.html">Projects</a> </small>
+      <small> <a class="nav-link " href="./game.html">Games</a> </small>
+      <small> <a class="nav-link " href="./assignment.html">Assignments</a> </small>
+      <small> <a class="nav-link " href="./assets/images/Pary Ly Resume 4.19 .pdf" target=".blank">Resume</a> </small>
+    </div>
+    <div class="col-md-4">
+      <span class="d-flex justify-content-center"> <small class="text-white"> <span class="location"> Sacramento, CA <i
+              class="fas fa-map-marker-alt"></i></span></small> </span>
+    </div>
+    <!-- CONTACT FOOTER  -->
+    <div class="footer-contact col-md-4">
+      <p>Contact:</p>
+      <small class="footer-link">
+        <p> <a href="mailto: paleepary@aol.com" class="footer-link"> <span> <i class="fas fa-envelope"></i> </span>
+            paleepary@aol.com
+      </small> </p></a>
+
+      <p class="card-text"><small class="footer-link"><a href="https://github.com/parytly" target=".blank"
+            class="footer-link">
+            <span> <i class="fab fa-github"></i> </span>Github profile </small></p></a>
+
+      <p class="card-text"><small class="footer-link"><a href="" target=".blank" class="footer-link">
+            <span> <i class="fab fa-linkedin"></i> </span>Linkedin </small></p></a>
+
+      <p class="card-text"><small class="footer-link"><a href="https://github.com/parytly" target=".blank"
+            class="footer-link"><span> <i class="fab fa-facebook"></i> </span>Facebook </small></p></a>
     </div>
   </div>
 
+  <div class="bottom-footer d-flex justify-content-center bg-dark">
+    <span class=" footer-brand">
+      <i class="fas fa-laptop-code"></i> <span class="name"> PARY LY</span>
+    </span>
+  </div>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

@@ -17,16 +17,16 @@
     rel="stylesheet">
   <!-- JQUERY -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <title>Ly's Portfolio</title>
-
+  <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/ee38aa50f5.js" crossorigin="anonymous"></script>
+  <title> Ly's Portfolio</title>
+  <link rel="icon" href="./assets/images/godzilla-1954.jpg">
 </head>
 
 <body>
   <!-- NAV BAR  -->
   <nav class="navbar navbar-dark bg-dark fixed-top">
-    <!-- <i class="fas fa-angle-double-right"></i> -->
     <a class="navbar-brand" href="./index.html">
-      <!-- <img src="./assets/images/godzilla-icon.jpg" width="50px" height="50px" class="godzilla-icon"> -->
       <i class="fas fa-laptop-code"></i>
       <span class="name"> PARY LY</span>
     </a>
@@ -60,33 +60,35 @@
   </nav>
   <!-- TOP CARD-->
 
-  <div class="card-zoom bg-dark text-white d-flex">
+  <div class="card-zoom bg-dark text-white ">
     <img src="./assets/images/workcoffee.jpg" class="card-img-top" alt="...">
     <div class="card-img-overlay">
       <h5 class="card-title text-light text-center">CODING PROFILE</h5>
     </div>
   </div>
-
+  <br>
   <!-- ABOUT ME CARD -->
-  <div class="card mb-3 d-flex aboutmeHolder">
-    <div class="row no-gutters about-me">
-      <div class="col-md-4">
-        <img src="./assets/images/star-tree.jpg" class="card-img aboutMe-img" alt="...">
+  <div class=" d-flex  justify-content-center aboutmeHolder">
+    <div class="row d-flex no-gutters about-me">
+      <div class="col-md-4 d-flex justify-content-center">
+        <img src="./assets/images/aboutme.jpg" class="card-img aboutMe-img" alt="...">
       </div>
-      <div class="col-md-8">
-        <div class="card-body about-me-body">
+      <div class="col-md-8 about-me-body">
+        <div class="card-body ">
           <h5 class="card-title-aboutme">About Me</h5>
-          <p class="card-text">My name is Pary Ly and this page is about my coding experience, progression, and
-            projects. The page will display my expertise with both front-end and back-end in web development.</p>
+          <p class="card-text">My name is Pary Ly and I'm from Sacramento California. I am a web developer with my
+            educational background at UC Davis web development bootcamp.
+            This page is about my coding experience, progression, and
+            projects. The page will display my expertise in both front-end and back-end in web development.</p>
         </div>
       </div>
     </div>
   </div>
 
-
+  <br>
   <!-- CARDS  -->
-  <div class="card-deck">
-    <div class="row">
+  <div class="card-deck container">
+    <div class="row justify-content-center">
       <div class="card each-card col-">
         <a href="./project.html" class="text-dark">
           <img src="assets/images/project.jpeg" class="card-img-body" alt="...">
@@ -128,34 +130,42 @@
   <!-- FOOTER  -->
   <!-- NAVIGATION FOOTER  -->
   <div class="card-footer bg-dark row">
-    <div class="footer-nav col-md-2">
-      <p class="text-white">Links:</p>
-
-      <a class="nav-link text-white" href="./project.html"> <small> Projects </small> </a>
-
-      <small> <a class="nav-link text-white" href="./game.html">Games</a> </small>
-
-      <small> <a class="nav-link text-white" href="./assignment.html">Assignments</a> </small>
-
-      <small> <a class="nav-link text-white" href="./assets/images/Pary Ly Resume 4.19 .pdf" target="_blank"
-          class="text-white">Resume <i class="fas fa-file"></i></a> </small>
+    <div class="footer-nav col-md-4">
+      <p class="text-white"> Links:</p>
+      <small> <a class="nav-link " href="./project.html">Projects</a> </small>
+      <small> <a class="nav-link " href="./game.html">Games</a> </small>
+      <small> <a class="nav-link " href="./assignment.html">Assignments</a> </small>
+      <small> <a class="nav-link " href="./assets/images/Pary Ly Resume 4.19 .pdf" target=".blank">Resume</a> </small>
+    </div>
+    <div class="col-md-4">
+      <span class="d-flex justify-content-center"> <small class="text-white"> <span class="location"> Sacramento, CA <i
+              class="fas fa-map-marker-alt"></i></span></small> </span>
     </div>
     <!-- CONTACT FOOTER  -->
-    <div class="footer-contact col-md-10">
+    <div class="footer-contact col-md-4">
       <p>Contact:</p>
-      <p> <small> <a href="mailto: paleepary@aol.com" class="text-white"> <span> <i class="fas fa-envelope"></i> </span>
-            paleepary@aol.com</small> </p></a>
+      <small class="footer-link">
+        <p> <a href="mailto: paleepary@aol.com" class="footer-link"> <span> <i class="fas fa-envelope"></i> </span>
+            paleepary@aol.com
+      </small> </p></a>
 
-      <p class="card-text"><small class="text-muted"><a href="https://github.com/parytly" target=".blank"
-            class="text-white">
+      <p class="card-text"><small class="footer-link"><a href="https://github.com/parytly" target=".blank"
+            class="footer-link">
             <span> <i class="fab fa-github"></i> </span>Github profile </small></p></a>
-      <p class="card-text"><small class="text-muted"><a href="https://github.com/parytly" target=".blank"
-            class="text-white">
+
+      <p class="card-text"><small class="footer-link"><a href="" target=".blank" class="footer-link">
             <span> <i class="fab fa-linkedin"></i> </span>Linkedin </small></p></a>
 
+      <p class="card-text"><small class="footer-link"><a href="https://github.com/parytly" target=".blank"
+            class="footer-link"><span> <i class="fab fa-facebook"></i> </span>Facebook </small></p></a>
     </div>
   </div>
 
+  <div class="bottom-footer d-flex justify-content-center bg-dark">
+    <span class=" footer-brand">
+      <i class="fas fa-laptop-code"></i> <span class="name"> PARY LY</span>
+    </span>
+  </div>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
