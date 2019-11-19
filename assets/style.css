@@ -47,29 +47,41 @@ body{
     background-color: black;
 }
 .card-deck{
-    margin: 50px 20px;
+    margin: 70px 50px;
     padding: 20px 20px;
     background-color: rgba(3, 37, 3, 0.749);
     border: dashed 2px black;
     border-radius: 5%;
 }
 /* FOOTER */
+.footer-nav{
+    border-right: solid 2px white;
+}
 .footer-contact{
     position: sticky;
     width: 100%;
     color: white;
     text-align: right;
+    border-left: solid 2px white;
 }
-.bottom-footer{
-    /* background-color: rgba(3, 37, 3, 0.749); */
-    height: 80px;
+.nav-link{
+    color:white;
+}
+.nav-link:hover{
+    color: teal;
+    }
+.footer-link{
+    color:white;
+}
+.footer-link :hover{
+    color: teal;
 }
 .footer-brand{
     font-weight: bold;
     font-size: 15px;
     color: white;
-    margin-top: 20px;
 }
+
 /* MAIN PAGE HEADER IMAGE AND TEXT */
 .card-text-top{
     font-family: 'Montserrat', sans-serif;

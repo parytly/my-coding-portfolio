@@ -20,7 +20,7 @@ body{
     border-radius: 5%;
     padding: 5px 20px;
     margin-top: 20px;
-    margin-bottom:20px;
+    margin-bottom:70px;
     background-color: rgba(3, 37, 3, 0.749);
 }
 .media{
@@ -34,17 +34,32 @@ h5{
 }
 
 /* FOOTER */
+.footer-nav{
+    border-right: solid 2px white;
+}
 .footer-contact{
     position: sticky;
     width: 100%;
     color: white;
     text-align: right;
+    border-left: solid 2px white;
 }
 .footer-brand{
     font-weight: bold;
     font-size: 15px;
     color: white;
-    margin-top: 20px;
+}
+.nav-link{
+    color:white;
+}
+.nav-link:hover{
+    color: teal;
+    }
+.footer-link{
+    color:white;
+}
+.footer-link :hover{
+    color: teal;
 }
 /* MAIN PAGE HEADER IMAGE AND TEXT */
 .card-zoom{
