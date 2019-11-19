@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(241, 224, 202);
+    background-color: rgba(243, 226, 204, 0.733);
 }
 /* NAVIGATION BAR  */
 .navbar-brand{
@@ -14,29 +14,27 @@ body{
     font-size: 20px;
 }
 /* ABOUT ME CARD */
-.aboutMe-img{
-    margin: 20px 10px;
-    border-radius: 50%;
-    height: 150px;
-}
-.card-title-aboutme{
-    font-size: 50px;
-}
+
 .aboutmeHolder{
-    background-color: rgba(52, 78, 52, 0.89);
-    border: dashed 3px black;
-    padding: 10px 20px;
+    /* background-color: rgb(241, 224, 202); */
 }
 .about-me{
-    background-color: white;
-    margin: 20px 10px;
+    margin: 5px 50px;
+}
+.aboutMe-img{
+    border-radius:70%; 
+    border: solid 5px black;
+    height: 200px;
+    width: 250px;
 }
 .about-me-body{
-   
-    padding-top: 10px;
-    padding-bottom: -20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+   background-color: white;
+   border: solid 2px black;
+   border-radius: 10%;
+}
+.card-title-aboutme{
+    font-size: 30px;
+    font-weight: bold;
 }
 
 /* MAIN PAGE CARD BODY CSS */
@@ -49,22 +47,41 @@ body{
     background-color: black;
 }
 .card-deck{
-    margin: 50px 20px;
-    padding: 50px 20px;
-    background-color: rgba(43, 71, 43, 0.749);
+    margin: 70px 50px;
+    padding: 20px 20px;
+    background-color: rgba(3, 37, 3, 0.749);
     border: dashed 2px black;
+    border-radius: 5%;
 }
 /* FOOTER */
+.footer-nav{
+    border-right: solid 2px white;
+}
 .footer-contact{
     position: sticky;
     width: 100%;
     color: white;
     text-align: right;
+    border-left: solid 2px white;
 }
-/* .fab{
-    width: 50px;
-    height:50px;
-} */
+.nav-link{
+    color:white;
+}
+.nav-link:hover{
+    color: teal;
+    }
+.footer-link{
+    color:white;
+}
+.footer-link :hover{
+    color: teal;
+}
+.footer-brand{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+
 /* MAIN PAGE HEADER IMAGE AND TEXT */
 .card-text-top{
     font-family: 'Montserrat', sans-serif;

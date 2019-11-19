@@ -1,14 +1,14 @@
 body{
-    background-color: rgb(241, 224, 202);
+    background-color: rgba(243, 226, 204, 0.733);
 }
 /* NAVIGATION BAR  */
 .navbar-brand{
     font-weight: bold;
     font-size: 15px;
-    border: solid 3px black;
+    border: solid 1px white;
     border-radius: 8px;
-    padding: 5px 25px;
-    background-color: rgba(43, 71, 43, 0.749)
+    padding: 5px;
+    background-color: rgba(3, 37, 3, 0.749);
 }
 .name{
     font-size: 20px;
@@ -17,13 +17,14 @@ body{
 .game-body{
     width:100%;
     border: solid 2px black;
+    border-radius: 5%;
     padding: 5px 20px;
     margin-top: 20px;
-    margin-bottom:20px;
-    background-color: rgba(43, 71, 43, 0.749);
+    margin-bottom:70px;
+    background-color: rgba(3, 37, 3, 0.749);
 }
 .media{
-    background-color: rgb(229, 235, 240);
+    background-color: white;
     margin-top: 10px;
     margin-bottom: 10px;
     border: solid 2px black;
@@ -33,13 +34,33 @@ h5{
 }
 
 /* FOOTER */
-.card-footer{
+.footer-nav{
+    border-right: solid 2px white;
+}
+.footer-contact{
     position: sticky;
     width: 100%;
-    color:white;
-    text-align: center;
+    color: white;
+    text-align: right;
+    border-left: solid 2px white;
 }
-
+.footer-brand{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+.nav-link{
+    color:white;
+}
+.nav-link:hover{
+    color: teal;
+    }
+.footer-link{
+    color:white;
+}
+.footer-link :hover{
+    color: teal;
+}
 /* MAIN PAGE HEADER IMAGE AND TEXT */
 .card-zoom{
     overflow: hidden;
