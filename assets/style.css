@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(243, 226, 204, 0.733);
+    background-color: snow;
 }
 /* NAVIGATION BAR  */
 .navbar-brand{
@@ -16,6 +16,10 @@ body{
 /* ABOUT ME CARD */
 
 .aboutmeHolder{
+    /* background-image: url("/assets/images/star-rock.jpg"); */
+    background-color: seashell;
+    height:100vh;
+    width: 100%;
     border-left: solid 2px black;
     border-right: solid 2px black;
     margin-top: 40px;
@@ -45,6 +49,9 @@ body{
     
 }
 .my-portfolio{
+    /* height: 100vh; */
+    background-color: gainsboro;
+    width: 100%;
     margin-top: 70px;
     border-bottom: solid 2px rgba(3, 37, 3, 0.749);
     letter-spacing: 2px;
@@ -54,6 +61,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px 10px;
     font-weight: bold;
+    text-decoration: underline;
 }
 /* MAIN PAGE CARD BODY CSS */
 .card-img-body{
@@ -74,13 +82,24 @@ body{
     border: dashed 2px black;
     border-radius: 5%;
 }
+.contact{
+    background-color: black;
+    height: 100vh;
+}
 /* FOOTER */
+
+.card-footer{
+    width:100%;
+    position: static;
+    bottom: 0;
+
+}
 .footer-nav{
     border-right: solid 2px white;
 }
 .footer-contact{
-    position: sticky;
-    width: 100%;
+    /* position: sticky; */
+    /* width: 100%; */
     color: white;
     text-align: right;
     border-left: solid 2px white;
@@ -114,10 +133,11 @@ body{
 }
 .card-zoom{
     overflow: hidden;
-    margin-top: 90px;
+    height: 100vh;
+    /* margin-top: 90px;
     margin-bottom:20px;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 20px; */
 }
 .card-zoom .card-img-top{
     transition: all 2s ease;
@@ -126,7 +146,7 @@ body{
     transform: scale(1.5);
 }
 .card-img-top{
-    height: 400px;
+    height: 100vh;
     border: solid 5px black;
 }
 .card-img-overlay{
@@ -135,10 +155,12 @@ body{
 }
 .card-title{
     font-family: Arial, Helvetica, sans-serif, sans-serif;
-    font-size: 80px;
+    font-size: 50px;
     font-weight: bold;
     text-shadow: 5px 5px black;
     margin-top: 120px;
-};
+}
+
+
 
 

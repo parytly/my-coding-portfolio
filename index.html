@@ -61,19 +61,24 @@
   <!-- TOP CARD-->
 
   <div class="card-zoom bg-dark text-white ">
-    <img src="./assets/images/workcoffee.jpg" class="card-img-top" alt="...">
+    <img src="./assets/images/rainbow.jpeg" class="card-img-top" alt="...">
     <div class="card-img-overlay">
-      <h5 class="card-title text-light text-center">CODING PROFILE</h5>
+      <h5 class="card-title text-light text-center">Hello World! I'm <span>Pary Ly</span>.
+        <p>
+          A full stack web developer.
+        </p>
+      </h5>
     </div>
   </div>
   <br>
   <!-- ABOUT ME CARD -->
-  <div class=" container aboutmeHolder">
+  <div class="  aboutmeHolder">
+    <h1 class="portfolio-title text-center"> About Me</h1>
+    <div class="col-md-12 d-flex justify-content-center">
+      <img src="./assets/images/aboutme.jpg" class="card-img aboutMe-img" alt="...">
+    </div>
     <div class="row d-flex no-gutters about-me">
-      <div class="col-md-4 d-flex justify-content-center">
-        <img src="./assets/images/aboutme.jpg" class="card-img aboutMe-img" alt="...">
-      </div>
-      <div class="col-md-8 about-me-body">
+      <div class="col-md-12 about-me-body">
         <div class="card-body ">
           <h2 class="aboutMe-name"> Pary Ly</h2>
           <h6 class="card-title-aboutme">About Me</h6>
@@ -88,89 +93,121 @@
 
   <br>
 
-  <div class="container my-portfolio">
-    <h1 class="portfolio-title text-center"> My Portfolio</h1>
-  </div>
-  <!-- CARDS  -->
-  <div class="card-deck container">
-    <div class="row justify-content-center">
+  <div class=" my-portfolio">
+    <h1 class="portfolio-title text-center"> My Projects</h1>
+
+    <!-- CARDS  -->
+    <div class="card-deck container">
+      <div class="row justify-content-center">
+        <!-- Shakesprience -->
+        <div class="card each-card col-">
+          <a href="https://parytly.github.io/project-01/" class="text-dark project-click">
+            <img src="assets/images/project.jpeg" class="card-img-body" alt="...">
+            <div class="card-body bg-light">
+              <h5 class="card-title-body text-dark">Shakesprience</h5>
+          </a>
+          <p class="card-text">Group project 1 incorporated the use of API, JSON, HTML, and CSS.</p>
+          <a href="https://github.com/parytly/project-01" target=".blank"> <i class="fab fa-github text-dark"></i></a>
+          <p class="card-text"><small class="text-muted">Project-01 11/9/2019</small></p>
+        </div>
+      </div>
+      <!-- Life Hack -->
       <div class="card each-card col-">
-        <a href="./project.html" class="text-dark project-click">
-          <img src="assets/images/project.jpeg" class="card-img-body" alt="...">
-          <div class="card-body bg-light">
-            <h5 class="card-title-body text-dark">Projects</h5>
+        <a href="https://project-2-life-hacks.herokuapp.com/">
+          <img src="assets/images/gaming.jpg" class="card-img-body" alt="...">
         </a>
-        <p class="card-text"> Class projects that display the application of both front/ back-end skills of web
-          development.</p>
+        <div class="card-body bg-light text-dark">
+          <a href="https://project-2-life-hacks.herokuapp.com/" class="text-dark">
+            <h5 class="card-title-body">Life Hacks</h5>
+          </a>
+          <p class="card-text">Life Hack is a web application that helps orgranize your daily life activities. This
+            application
+            incorporated the use of Materialize, Node Js, Cloudinary, Nodemailer, and Mysql. The
+            app is hosted to a live server using Heroku.</p>
+          <a href="https://github.com/parytly/Project2" target=".blank"> <i class="fab fa-github text-dark"></i></a>
+          <p class="card-text"><small class="text-muted">Project-02 01/25/2020</small></p>
+        </div>
       </div>
-    </div>
 
-    <div class="card each-card col-">
-      <a href="./game.html">
-        <img src="assets/images/gaming.jpg" class="card-img-body" alt="...">
-      </a>
-      <div class="card-body bg-light text-dark">
-        <a href="./game.html" class="text-dark">
-          <h5 class="card-title-body">Games</h5>
+      <div class="card each-card col-">
+        <a href="./assignment.html">
+          <img src="assets/images/assignment.jpg" class="card-img-body" alt="...">
         </a>
-        <p class="card-text">A list of games that i've created by using different computer programming lanuages.</p>
-      </div>
-    </div>
-
-    <div class="card each-card col-">
-      <a href="./assignment.html">
-        <img src="assets/images/assignment.jpg" class="card-img-body" alt="...">
-      </a>
-      <div class="card-body bg-light text-dark">
-        <a href="./assignment.html" class="text-dark">
-          <h5 class="card-title-body">Assignments</h5>
-        </a>
-        <p class="card-text">My homework assignements that include using a variety of computer programming lanuages
-          like JavaScript, CSS, HTML, API, and etc.</p>
+        <div class="card-body bg-light text-dark">
+          <a href="./assignment.html" class="text-dark">
+            <h5 class="card-title-body">Assignments</h5>
+          </a>
+          <p class="card-text">My homework assignements that include using a variety of computer programming lanuages
+            like JavaScript, CSS, HTML, API, and etc.</p>
+        </div>
       </div>
     </div>
   </div>
   </div>
+  <!-- Contact  me -->
+  <!-- <div class=" contact">
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Name</label>
+          <input type="firstName" class="form-control" id="inputEmail4">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress">Email</label>
+          <input type="email" class="form-control" id="inputAddress" placeholder="">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+    </form>
+  </div> -->
 
-  <div class="links-to-files"> </div>
+
   <!-- FOOTER  -->
   <!-- NAVIGATION FOOTER  -->
-  <div class="card-footer bg-dark row">
-    <div class="footer-nav col-md-4">
-      <p class="text-white"> Links:</p>
-      <small> <a class="nav-link " href="./project.html">Projects</a> </small>
-      <small> <a class="nav-link " href="./game.html">Games</a> </small>
-      <small> <a class="nav-link " href="./assignment.html">Assignments</a> </small>
-      <small> <a class="nav-link " href="./assets/images/Pary Ly Resume 4.19 .pdf" target=".blank">Resume</a> </small>
+  <div class=' card-footer'>
+    <div class=" bg-dark row">
+      <div class="footer-nav col-md-4">
+        <p class="text-white"> Links:</p>
+        <small> <a class="nav-link " href="./project.html">Projects</a> </small>
+        <small> <a class="nav-link " href="./game.html">Games</a> </small>
+        <small> <a class="nav-link " href="./assignment.html">Assignments</a> </small>
+        <small> <a class="nav-link " href="./assets/images/Pary Ly Resume 4.19 .pdf" target=".blank">Resume</a> </small>
+      </div>
+      <div class="col-md-4">
+        <div>
+          <span class="d-flex justify-content-center"> <small class="text-white"> <span class="location"> Sacramento, CA
+                <i class="fas fa-map-marker-alt"></i></span></small> </span>
+        </div>
+
+      </div>
+      <!-- CONTACT FOOTER  -->
+      <div class="footer-contact col-md-4">
+        <p>Contact:</p>
+        <small class="footer-link">
+          <p> <a href="mailto: paleepary@aol.com" class="footer-link"> <span> <i class="fas fa-envelope"></i> </span>
+              paleepary@aol.com
+        </small> </p></a>
+
+        <p class="card-text"><small class="footer-link"><a href="https://github.com/parytly" target=".blank"
+              class="footer-link">
+              <span> <i class="fab fa-github"></i> </span>Github profile </small></p></a>
+
+        <p class="card-text"><small class="footer-link"><a href="" target=".blank" class="footer-link">
+              <span> <i class="fab fa-linkedin"></i> </span>Linkedin </small></p></a>
+
+        <p class="card-text"><small class="footer-link"><a href="https://github.com/parytly" target=".blank"
+              class="footer-link"><span> <i class="fab fa-facebook"></i> </span>Facebook </small></p></a>
+      </div>
     </div>
-    <div class="col-md-4">
-      <span class="d-flex justify-content-center"> <small class="text-white"> <span class="location"> Sacramento, CA <i
-              class="fas fa-map-marker-alt"></i></span></small> </span>
-    </div>
-    <!-- CONTACT FOOTER  -->
-    <div class="footer-contact col-md-4">
-      <p>Contact:</p>
-      <small class="footer-link">
-        <p> <a href="mailto: paleepary@aol.com" class="footer-link"> <span> <i class="fas fa-envelope"></i> </span>
-            paleepary@aol.com
-      </small> </p></a>
 
-      <p class="card-text"><small class="footer-link"><a href="https://github.com/parytly" target=".blank"
-            class="footer-link">
-            <span> <i class="fab fa-github"></i> </span>Github profile </small></p></a>
-
-      <p class="card-text"><small class="footer-link"><a href="" target=".blank" class="footer-link">
-            <span> <i class="fab fa-linkedin"></i> </span>Linkedin </small></p></a>
-
-      <p class="card-text"><small class="footer-link"><a href="https://github.com/parytly" target=".blank"
-            class="footer-link"><span> <i class="fab fa-facebook"></i> </span>Facebook </small></p></a>
-    </div>
-  </div>
-
-  <div class="bottom-footer d-flex justify-content-center bg-dark">
-    <span class=" footer-brand">
-      <i class="fas fa-laptop-code"></i> <span class="name"> PARY LY</span>
-    </span>
+    <!-- <div class="bottom-footer d-flex justify-content-center bg-dark">
+      <span class=" footer-brand">
+        <i class="fas fa-laptop-code"></i> <span class="name"> PARY LY</span>
+      </span>
+    </div> -->
   </div>
 
   <!-- Optional JavaScript -->
